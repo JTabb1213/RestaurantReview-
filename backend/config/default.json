@@ -1,0 +1,22 @@
+{
+    "providers": {
+        "location": "googleapi",
+        "map": "googlemapapi",
+        "events": "ticketmaster",
+        "reviews": "yelp"
+    },
+    "database": {
+        "port": "5432",
+        "host": "localhost",
+        "user": "admin",
+        "password": "password",
+        "db": "weather",
+        "dialect": "postgres",
+        "pool": {
+            "max": 5,
+            "min": 0,
+            "acquire": 30000,
+            "idle": 10000
+        }
+    }
+}

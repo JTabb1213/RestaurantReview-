@@ -63,7 +63,6 @@ function SearchPage() {
 
             //setSearchResults(response.data.restaurants);
 
-            // Set the search results in the component state
             //setSearchResults((prevResults) => (nextPageToken ? [...prevResults, ...response.data.restaurants] : response.data.restaurants));
             setSearchResults(response.data.restaurants);
 

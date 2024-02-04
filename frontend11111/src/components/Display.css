@@ -1,0 +1,34 @@
+.photos-container {
+    overflow-x: auto;
+    margin-top: 75px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photos-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.photo {
+    height: 400px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.Restaurant-Name {
+    position: absolute;
+    bottom: 10px;
+    /* Adjust the distance from the bottom as needed */
+    left: 10px;
+    /* Adjust the distance from the left as needed */
+    color: white;
+    font-family: 'Your Chosen Font', sans-serif;
+    /* Replace 'Your Chosen Font' with the actual font name */
+    font-size: 18px;
+    font-weight: bold;
+    /* Adjust the font size as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Optional: Add a subtle text shadow */
+}
